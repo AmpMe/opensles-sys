@@ -1,0 +1,10 @@
+[package]
+name    = "opensles-sys"
+version = "0.0.1"
+links   = "OpenSLES"
+
+[lib]
+name = "opensles"
+
+[build-dependencies]
+bindgen = "0.26.3"
