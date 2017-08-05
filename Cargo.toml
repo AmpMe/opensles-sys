@@ -2,6 +2,7 @@
 name    = "opensles-sys"
 version = "0.0.1"
 links   = "OpenSLES"
+authors = ["Andre-Philippe Paquet <app@ampme.com>"]
 
 [lib]
 name = "opensles"
