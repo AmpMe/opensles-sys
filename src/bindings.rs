@@ -86,50 +86,83 @@ pub const ANDROID_KEY_PCMFORMAT_CHANNELMASK: &'static [u8; 28usize] =
 pub const ANDROID_KEY_PCMFORMAT_ENDIANNESS: &'static [u8; 27usize] =
     b"AndroidPcmFormatEndianness\x00";
 pub const __GNUC_VA_LIST: ::std::os::raw::c_uint = 1;
-pub const __BIONIC__: ::std::os::raw::c_uint = 1;
-pub const __ANDROID_API_FUTURE__: ::std::os::raw::c_uint = 10000;
-pub const __ANDROID_API__: ::std::os::raw::c_uint = 10000;
-pub const __ANDROID_API_G__: ::std::os::raw::c_uint = 9;
-pub const __ANDROID_API_I__: ::std::os::raw::c_uint = 14;
-pub const __ANDROID_API_J__: ::std::os::raw::c_uint = 16;
-pub const __ANDROID_API_J_MR1__: ::std::os::raw::c_uint = 17;
-pub const __ANDROID_API_J_MR2__: ::std::os::raw::c_uint = 18;
-pub const __ANDROID_API_K__: ::std::os::raw::c_uint = 19;
-pub const __ANDROID_API_L__: ::std::os::raw::c_uint = 21;
-pub const __ANDROID_API_L_MR1__: ::std::os::raw::c_uint = 22;
-pub const __ANDROID_API_M__: ::std::os::raw::c_uint = 23;
-pub const __ANDROID_API_N__: ::std::os::raw::c_uint = 24;
-pub const __ANDROID_API_N_MR1__: ::std::os::raw::c_uint = 25;
-pub const __ANDROID_API_O__: ::std::os::raw::c_uint = 26;
 pub const __WORDSIZE: ::std::os::raw::c_uint = 64;
-pub const INT8_MIN: ::std::os::raw::c_int = -128;
+pub const __DARWIN_ONLY_64_BIT_INO_T: ::std::os::raw::c_uint = 0;
+pub const __DARWIN_ONLY_VERS_1050: ::std::os::raw::c_uint = 0;
+pub const __DARWIN_ONLY_UNIX_CONFORMANCE: ::std::os::raw::c_uint = 1;
+pub const __DARWIN_UNIX03: ::std::os::raw::c_uint = 1;
+pub const __DARWIN_64_BIT_INO_T: ::std::os::raw::c_uint = 1;
+pub const __DARWIN_VERS_1050: ::std::os::raw::c_uint = 1;
+pub const __DARWIN_NON_CANCELABLE: ::std::os::raw::c_uint = 0;
+pub const __DARWIN_SUF_64_BIT_INO_T: &'static [u8; 9usize] = b"$INODE64\x00";
+pub const __DARWIN_SUF_1050: &'static [u8; 6usize] = b"$1050\x00";
+pub const __DARWIN_SUF_EXTSN: &'static [u8; 14usize] = b"$DARWIN_EXTSN\x00";
+pub const __DARWIN_C_ANSI: ::std::os::raw::c_uint = 4096;
+pub const __DARWIN_C_FULL: ::std::os::raw::c_uint = 900000;
+pub const __DARWIN_C_LEVEL: ::std::os::raw::c_uint = 900000;
+pub const __STDC_WANT_LIB_EXT1__: ::std::os::raw::c_uint = 1;
+pub const _DARWIN_FEATURE_64_BIT_INODE: ::std::os::raw::c_uint = 1;
+pub const _DARWIN_FEATURE_ONLY_UNIX_CONFORMANCE: ::std::os::raw::c_uint = 1;
+pub const _DARWIN_FEATURE_UNIX_CONFORMANCE: ::std::os::raw::c_uint = 3;
+pub const __PTHREAD_SIZE__: ::std::os::raw::c_uint = 8176;
+pub const __PTHREAD_ATTR_SIZE__: ::std::os::raw::c_uint = 56;
+pub const __PTHREAD_MUTEXATTR_SIZE__: ::std::os::raw::c_uint = 8;
+pub const __PTHREAD_MUTEX_SIZE__: ::std::os::raw::c_uint = 56;
+pub const __PTHREAD_CONDATTR_SIZE__: ::std::os::raw::c_uint = 8;
+pub const __PTHREAD_COND_SIZE__: ::std::os::raw::c_uint = 40;
+pub const __PTHREAD_ONCE_SIZE__: ::std::os::raw::c_uint = 8;
+pub const __PTHREAD_RWLOCK_SIZE__: ::std::os::raw::c_uint = 192;
+pub const __PTHREAD_RWLOCKATTR_SIZE__: ::std::os::raw::c_uint = 16;
 pub const INT8_MAX: ::std::os::raw::c_uint = 127;
-pub const INT_LEAST8_MIN: ::std::os::raw::c_int = -128;
-pub const INT_LEAST8_MAX: ::std::os::raw::c_uint = 127;
-pub const INT_FAST8_MIN: ::std::os::raw::c_int = -128;
-pub const INT_FAST8_MAX: ::std::os::raw::c_uint = 127;
-pub const UINT8_MAX: ::std::os::raw::c_uint = 255;
-pub const UINT_LEAST8_MAX: ::std::os::raw::c_uint = 255;
-pub const UINT_FAST8_MAX: ::std::os::raw::c_uint = 255;
-pub const INT16_MIN: ::std::os::raw::c_int = -32768;
 pub const INT16_MAX: ::std::os::raw::c_uint = 32767;
-pub const INT_LEAST16_MIN: ::std::os::raw::c_int = -32768;
-pub const INT_LEAST16_MAX: ::std::os::raw::c_uint = 32767;
-pub const UINT16_MAX: ::std::os::raw::c_uint = 65535;
-pub const UINT_LEAST16_MAX: ::std::os::raw::c_uint = 65535;
-pub const INT32_MIN: ::std::os::raw::c_int = -2147483648;
 pub const INT32_MAX: ::std::os::raw::c_uint = 2147483647;
-pub const INT_LEAST32_MIN: ::std::os::raw::c_int = -2147483648;
-pub const INT_LEAST32_MAX: ::std::os::raw::c_uint = 2147483647;
-pub const INT_FAST32_MIN: ::std::os::raw::c_int = -2147483648;
-pub const INT_FAST32_MAX: ::std::os::raw::c_uint = 2147483647;
+pub const INT64_MAX: ::std::os::raw::c_ulonglong = 9223372036854775807;
+pub const INT8_MIN: ::std::os::raw::c_int = -128;
+pub const INT16_MIN: ::std::os::raw::c_int = -32768;
+pub const INT32_MIN: ::std::os::raw::c_int = -2147483648;
+pub const INT64_MIN: ::std::os::raw::c_longlong = -9223372036854775808;
+pub const UINT8_MAX: ::std::os::raw::c_uint = 255;
+pub const UINT16_MAX: ::std::os::raw::c_uint = 65535;
 pub const UINT32_MAX: ::std::os::raw::c_uint = 4294967295;
+pub const UINT64_MAX: ::std::os::raw::c_int = -1;
+pub const INT_LEAST8_MIN: ::std::os::raw::c_int = -128;
+pub const INT_LEAST16_MIN: ::std::os::raw::c_int = -32768;
+pub const INT_LEAST32_MIN: ::std::os::raw::c_int = -2147483648;
+pub const INT_LEAST64_MIN: ::std::os::raw::c_longlong = -9223372036854775808;
+pub const INT_LEAST8_MAX: ::std::os::raw::c_uint = 127;
+pub const INT_LEAST16_MAX: ::std::os::raw::c_uint = 32767;
+pub const INT_LEAST32_MAX: ::std::os::raw::c_uint = 2147483647;
+pub const INT_LEAST64_MAX: ::std::os::raw::c_ulonglong = 9223372036854775807;
+pub const UINT_LEAST8_MAX: ::std::os::raw::c_uint = 255;
+pub const UINT_LEAST16_MAX: ::std::os::raw::c_uint = 65535;
 pub const UINT_LEAST32_MAX: ::std::os::raw::c_uint = 4294967295;
+pub const UINT_LEAST64_MAX: ::std::os::raw::c_int = -1;
+pub const INT_FAST8_MIN: ::std::os::raw::c_int = -128;
+pub const INT_FAST16_MIN: ::std::os::raw::c_int = -32768;
+pub const INT_FAST32_MIN: ::std::os::raw::c_int = -2147483648;
+pub const INT_FAST64_MIN: ::std::os::raw::c_longlong = -9223372036854775808;
+pub const INT_FAST8_MAX: ::std::os::raw::c_uint = 127;
+pub const INT_FAST16_MAX: ::std::os::raw::c_uint = 32767;
+pub const INT_FAST32_MAX: ::std::os::raw::c_uint = 2147483647;
+pub const INT_FAST64_MAX: ::std::os::raw::c_ulonglong = 9223372036854775807;
+pub const UINT_FAST8_MAX: ::std::os::raw::c_uint = 255;
+pub const UINT_FAST16_MAX: ::std::os::raw::c_uint = 65535;
 pub const UINT_FAST32_MAX: ::std::os::raw::c_uint = 4294967295;
-pub const SIG_ATOMIC_MAX: ::std::os::raw::c_uint = 2147483647;
-pub const SIG_ATOMIC_MIN: ::std::os::raw::c_int = -2147483648;
-pub const WINT_MAX: ::std::os::raw::c_uint = 2147483647;
+pub const UINT_FAST64_MAX: ::std::os::raw::c_int = -1;
+pub const INTPTR_MAX: ::std::os::raw::c_ulonglong = 9223372036854775807;
+pub const INTPTR_MIN: ::std::os::raw::c_longlong = -9223372036854775808;
+pub const UINTPTR_MAX: ::std::os::raw::c_int = -1;
+pub const INTMAX_MIN: ::std::os::raw::c_longlong = -9223372036854775808;
+pub const INTMAX_MAX: ::std::os::raw::c_ulonglong = 9223372036854775807;
+pub const UINTMAX_MAX: ::std::os::raw::c_int = -1;
+pub const PTRDIFF_MIN: ::std::os::raw::c_longlong = -9223372036854775808;
+pub const PTRDIFF_MAX: ::std::os::raw::c_ulonglong = 9223372036854775807;
+pub const SIZE_MAX: ::std::os::raw::c_int = -1;
+pub const RSIZE_MAX: ::std::os::raw::c_int = -1;
 pub const WINT_MIN: ::std::os::raw::c_int = -2147483648;
+pub const WINT_MAX: ::std::os::raw::c_uint = 2147483647;
+pub const SIG_ATOMIC_MIN: ::std::os::raw::c_int = -2147483648;
+pub const SIG_ATOMIC_MAX: ::std::os::raw::c_uint = 2147483647;
 pub const JNI_FALSE: ::std::os::raw::c_uint = 0;
 pub const JNI_TRUE: ::std::os::raw::c_uint = 1;
 pub const JNI_VERSION_1_1: ::std::os::raw::c_uint = 65537;
@@ -167,6 +200,7 @@ pub type SLmillidegree = SLint32;
 pub type SLpermille = SLint16;
 pub type SLmicrosecond = SLuint32;
 pub type SLresult = SLuint32;
+/** Interface ID defined as a UUID */
 #[repr(C)]
 #[derive(Debug, Copy)]
 pub struct SLInterfaceID_ {
@@ -334,6 +368,7 @@ pub type SLObjectItf = *const *const SLObjectItf_;
 extern "C" {
     pub static SL_IID_NULL: SLInterfaceID;
 }
+/** URI-based data locator definition where locatorType must be SL_DATALOCATOR_URI*/
 #[repr(C)]
 #[derive(Debug, Copy)]
 pub struct SLDataLocator_URI_ {
@@ -361,6 +396,7 @@ impl Clone for SLDataLocator_URI_ {
     fn clone(&self) -> Self { *self }
 }
 pub type SLDataLocator_URI = SLDataLocator_URI_;
+/** Address-based data locator definition where locatorType must be SL_DATALOCATOR_ADDRESS*/
 #[repr(C)]
 #[derive(Debug, Copy)]
 pub struct SLDataLocator_Address_ {
@@ -396,6 +432,7 @@ impl Clone for SLDataLocator_Address_ {
     fn clone(&self) -> Self { *self }
 }
 pub type SLDataLocator_Address = SLDataLocator_Address_;
+/** IODevice-based data locator definition where locatorType must be SL_DATALOCATOR_IODEVICE*/
 #[repr(C)]
 #[derive(Debug, Copy)]
 pub struct SLDataLocator_IODevice_ {
@@ -437,6 +474,7 @@ impl Clone for SLDataLocator_IODevice_ {
     fn clone(&self) -> Self { *self }
 }
 pub type SLDataLocator_IODevice = SLDataLocator_IODevice_;
+/** OutputMix-based data locator definition where locatorType must be SL_DATALOCATOR_OUTPUTMIX*/
 #[repr(C)]
 #[derive(Debug, Copy)]
 pub struct SLDataLocator_OutputMix {
@@ -465,6 +503,7 @@ fn bindgen_test_layout_SLDataLocator_OutputMix() {
 impl Clone for SLDataLocator_OutputMix {
     fn clone(&self) -> Self { *self }
 }
+/** BufferQueue-based data locator definition where locatorType must be SL_DATALOCATOR_BUFFERQUEUE*/
 #[repr(C)]
 #[derive(Debug, Copy)]
 pub struct SLDataLocator_BufferQueue {
@@ -496,6 +535,7 @@ fn bindgen_test_layout_SLDataLocator_BufferQueue() {
 impl Clone for SLDataLocator_BufferQueue {
     fn clone(&self) -> Self { *self }
 }
+/** MidiBufferQueue-based data locator definition where locatorType must be SL_DATALOCATOR_MIDIBUFFERQUEUE*/
 #[repr(C)]
 #[derive(Debug, Copy)]
 pub struct SLDataLocator_MIDIBufferQueue {
@@ -534,6 +574,7 @@ fn bindgen_test_layout_SLDataLocator_MIDIBufferQueue() {
 impl Clone for SLDataLocator_MIDIBufferQueue {
     fn clone(&self) -> Self { *self }
 }
+/** MIME-type-based data format definition where formatType must be SL_DATAFORMAT_MIME*/
 #[repr(C)]
 #[derive(Debug, Copy)]
 pub struct SLDataFormat_MIME_ {
@@ -567,6 +608,7 @@ impl Clone for SLDataFormat_MIME_ {
     fn clone(&self) -> Self { *self }
 }
 pub type SLDataFormat_MIME = SLDataFormat_MIME_;
+/** PCM-type-based data format definition where formatType must be SL_DATAFORMAT_PCM*/
 #[repr(C)]
 #[derive(Debug, Copy)]
 pub struct SLDataFormat_PCM_ {
@@ -681,6 +723,7 @@ pub type SLDataSink = SLDataSink_;
 extern "C" {
     pub static SL_IID_OBJECT: SLInterfaceID;
 }
+/** Object callback */
 pub type slObjectCallback =
     ::std::option::Option<unsafe extern "C" fn(caller: SLObjectItf,
                                                pContext:
@@ -1654,6 +1697,7 @@ pub type slMixDeviceChangeCallback =
 extern "C" {
     pub static SL_IID_PLAY: SLInterfaceID;
 }
+/** Playback interface methods */
 #[repr(C)]
 #[derive(Debug, Copy)]
 pub struct SLPlayItf_ {
@@ -1797,6 +1841,7 @@ pub type slPlayCallback =
 extern "C" {
     pub static SL_IID_PREFETCHSTATUS: SLInterfaceID;
 }
+/** Prefetch status interface methods */
 #[repr(C)]
 #[derive(Debug, Copy)]
 pub struct SLPrefetchStatusItf_ {
@@ -2045,6 +2090,7 @@ pub type SLSeekItf = *const *const SLSeekItf_;
 extern "C" {
     pub static SL_IID_RECORD: SLInterfaceID;
 }
+/** Recording interface methods */
 #[repr(C)]
 #[derive(Debug, Copy)]
 pub struct SLRecordItf_ {
@@ -2578,6 +2624,7 @@ pub type slBufferQueueCallback =
     ::std::option::Option<unsafe extern "C" fn(caller: SLBufferQueueItf,
                                                pContext:
                                                    *mut ::std::os::raw::c_void)>;
+/** Buffer queue state **/
 #[repr(C)]
 #[derive(Debug, Copy)]
 pub struct SLBufferQueueState_ {
@@ -5322,36 +5369,401 @@ extern "C" {
 }
 pub type va_list = __builtin_va_list;
 pub type __gnuc_va_list = __builtin_va_list;
-pub type wchar_t = ::std::os::raw::c_int;
-pub type max_align_t = f64;
+pub type int_least8_t = i8;
+pub type int_least16_t = i16;
+pub type int_least32_t = i32;
+pub type int_least64_t = i64;
+pub type uint_least8_t = u8;
+pub type uint_least16_t = u16;
+pub type uint_least32_t = u32;
+pub type uint_least64_t = u64;
+pub type int_fast8_t = i8;
+pub type int_fast16_t = i16;
+pub type int_fast32_t = i32;
+pub type int_fast64_t = i64;
+pub type uint_fast8_t = u8;
+pub type uint_fast16_t = u16;
+pub type uint_fast32_t = u32;
+pub type uint_fast64_t = u64;
 pub type __int8_t = ::std::os::raw::c_schar;
 pub type __uint8_t = ::std::os::raw::c_uchar;
 pub type __int16_t = ::std::os::raw::c_short;
 pub type __uint16_t = ::std::os::raw::c_ushort;
 pub type __int32_t = ::std::os::raw::c_int;
 pub type __uint32_t = ::std::os::raw::c_uint;
-pub type __int64_t = ::std::os::raw::c_long;
-pub type __uint64_t = ::std::os::raw::c_ulong;
-pub type __intptr_t = ::std::os::raw::c_long;
-pub type __uintptr_t = ::std::os::raw::c_ulong;
-pub type int_least8_t = i8;
-pub type uint_least8_t = u8;
-pub type int_least16_t = i16;
-pub type uint_least16_t = u16;
-pub type int_least32_t = i32;
-pub type uint_least32_t = u32;
-pub type int_least64_t = i64;
-pub type uint_least64_t = u64;
-pub type int_fast8_t = i8;
-pub type uint_fast8_t = u8;
-pub type int_fast64_t = i64;
-pub type uint_fast64_t = u64;
-pub type int_fast16_t = i64;
-pub type uint_fast16_t = u64;
-pub type int_fast32_t = i64;
-pub type uint_fast32_t = u64;
-pub type uintmax_t = u64;
-pub type intmax_t = i64;
+pub type __int64_t = ::std::os::raw::c_longlong;
+pub type __uint64_t = ::std::os::raw::c_ulonglong;
+pub type __darwin_intptr_t = ::std::os::raw::c_long;
+pub type __darwin_natural_t = ::std::os::raw::c_uint;
+pub type __darwin_ct_rune_t = ::std::os::raw::c_int;
+#[repr(C)]
+#[derive(Debug, Copy)]
+pub struct __mbstate_t {
+    pub __mbstate8: __BindgenUnionField<[::std::os::raw::c_char; 128usize]>,
+    pub _mbstateL: __BindgenUnionField<::std::os::raw::c_longlong>,
+    pub bindgen_union_field: [u64; 16usize],
+}
+#[test]
+fn bindgen_test_layout___mbstate_t() {
+    assert_eq!(::std::mem::size_of::<__mbstate_t>() , 128usize , concat ! (
+               "Size of: " , stringify ! ( __mbstate_t ) ));
+    assert_eq! (::std::mem::align_of::<__mbstate_t>() , 8usize , concat ! (
+                "Alignment of " , stringify ! ( __mbstate_t ) ));
+    assert_eq! (unsafe {
+                & ( * ( 0 as * const __mbstate_t ) ) . __mbstate8 as * const _
+                as usize } , 0usize , concat ! (
+                "Alignment of field: " , stringify ! ( __mbstate_t ) , "::" ,
+                stringify ! ( __mbstate8 ) ));
+    assert_eq! (unsafe {
+                & ( * ( 0 as * const __mbstate_t ) ) . _mbstateL as * const _
+                as usize } , 0usize , concat ! (
+                "Alignment of field: " , stringify ! ( __mbstate_t ) , "::" ,
+                stringify ! ( _mbstateL ) ));
+}
+impl Clone for __mbstate_t {
+    fn clone(&self) -> Self { *self }
+}
+pub type __darwin_mbstate_t = __mbstate_t;
+pub type __darwin_ptrdiff_t = ::std::os::raw::c_long;
+pub type __darwin_size_t = ::std::os::raw::c_ulong;
+pub type __darwin_va_list = __builtin_va_list;
+pub type __darwin_wchar_t = ::std::os::raw::c_int;
+pub type __darwin_rune_t = __darwin_wchar_t;
+pub type __darwin_wint_t = ::std::os::raw::c_int;
+pub type __darwin_clock_t = ::std::os::raw::c_ulong;
+pub type __darwin_socklen_t = __uint32_t;
+pub type __darwin_ssize_t = ::std::os::raw::c_long;
+pub type __darwin_time_t = ::std::os::raw::c_long;
+pub type __darwin_blkcnt_t = __int64_t;
+pub type __darwin_blksize_t = __int32_t;
+pub type __darwin_dev_t = __int32_t;
+pub type __darwin_fsblkcnt_t = ::std::os::raw::c_uint;
+pub type __darwin_fsfilcnt_t = ::std::os::raw::c_uint;
+pub type __darwin_gid_t = __uint32_t;
+pub type __darwin_id_t = __uint32_t;
+pub type __darwin_ino64_t = __uint64_t;
+pub type __darwin_ino_t = __darwin_ino64_t;
+pub type __darwin_mach_port_name_t = __darwin_natural_t;
+pub type __darwin_mach_port_t = __darwin_mach_port_name_t;
+pub type __darwin_mode_t = __uint16_t;
+pub type __darwin_off_t = __int64_t;
+pub type __darwin_pid_t = __int32_t;
+pub type __darwin_sigset_t = __uint32_t;
+pub type __darwin_suseconds_t = __int32_t;
+pub type __darwin_uid_t = __uint32_t;
+pub type __darwin_useconds_t = __uint32_t;
+pub type __darwin_uuid_t = [::std::os::raw::c_uchar; 16usize];
+pub type __darwin_uuid_string_t = [::std::os::raw::c_char; 37usize];
+#[repr(C)]
+#[derive(Debug, Copy)]
+pub struct __darwin_pthread_handler_rec {
+    pub __routine: ::std::option::Option<unsafe extern "C" fn(arg1:
+                                                                  *mut ::std::os::raw::c_void)>,
+    pub __arg: *mut ::std::os::raw::c_void,
+    pub __next: *mut __darwin_pthread_handler_rec,
+}
+#[test]
+fn bindgen_test_layout___darwin_pthread_handler_rec() {
+    assert_eq!(::std::mem::size_of::<__darwin_pthread_handler_rec>() , 24usize
+               , concat ! (
+               "Size of: " , stringify ! ( __darwin_pthread_handler_rec ) ));
+    assert_eq! (::std::mem::align_of::<__darwin_pthread_handler_rec>() ,
+                8usize , concat ! (
+                "Alignment of " , stringify ! ( __darwin_pthread_handler_rec )
+                ));
+    assert_eq! (unsafe {
+                & ( * ( 0 as * const __darwin_pthread_handler_rec ) ) .
+                __routine as * const _ as usize } , 0usize , concat ! (
+                "Alignment of field: " , stringify ! (
+                __darwin_pthread_handler_rec ) , "::" , stringify ! (
+                __routine ) ));
+    assert_eq! (unsafe {
+                & ( * ( 0 as * const __darwin_pthread_handler_rec ) ) . __arg
+                as * const _ as usize } , 8usize , concat ! (
+                "Alignment of field: " , stringify ! (
+                __darwin_pthread_handler_rec ) , "::" , stringify ! ( __arg )
+                ));
+    assert_eq! (unsafe {
+                & ( * ( 0 as * const __darwin_pthread_handler_rec ) ) . __next
+                as * const _ as usize } , 16usize , concat ! (
+                "Alignment of field: " , stringify ! (
+                __darwin_pthread_handler_rec ) , "::" , stringify ! ( __next )
+                ));
+}
+impl Clone for __darwin_pthread_handler_rec {
+    fn clone(&self) -> Self { *self }
+}
+#[repr(C)]
+pub struct _opaque_pthread_attr_t {
+    pub __sig: ::std::os::raw::c_long,
+    pub __opaque: [::std::os::raw::c_char; 56usize],
+}
+#[test]
+fn bindgen_test_layout__opaque_pthread_attr_t() {
+    assert_eq!(::std::mem::size_of::<_opaque_pthread_attr_t>() , 64usize ,
+               concat ! ( "Size of: " , stringify ! ( _opaque_pthread_attr_t )
+               ));
+    assert_eq! (::std::mem::align_of::<_opaque_pthread_attr_t>() , 8usize ,
+                concat ! (
+                "Alignment of " , stringify ! ( _opaque_pthread_attr_t ) ));
+    assert_eq! (unsafe {
+                & ( * ( 0 as * const _opaque_pthread_attr_t ) ) . __sig as *
+                const _ as usize } , 0usize , concat ! (
+                "Alignment of field: " , stringify ! ( _opaque_pthread_attr_t
+                ) , "::" , stringify ! ( __sig ) ));
+    assert_eq! (unsafe {
+                & ( * ( 0 as * const _opaque_pthread_attr_t ) ) . __opaque as
+                * const _ as usize } , 8usize , concat ! (
+                "Alignment of field: " , stringify ! ( _opaque_pthread_attr_t
+                ) , "::" , stringify ! ( __opaque ) ));
+}
+#[repr(C)]
+pub struct _opaque_pthread_cond_t {
+    pub __sig: ::std::os::raw::c_long,
+    pub __opaque: [::std::os::raw::c_char; 40usize],
+}
+#[test]
+fn bindgen_test_layout__opaque_pthread_cond_t() {
+    assert_eq!(::std::mem::size_of::<_opaque_pthread_cond_t>() , 48usize ,
+               concat ! ( "Size of: " , stringify ! ( _opaque_pthread_cond_t )
+               ));
+    assert_eq! (::std::mem::align_of::<_opaque_pthread_cond_t>() , 8usize ,
+                concat ! (
+                "Alignment of " , stringify ! ( _opaque_pthread_cond_t ) ));
+    assert_eq! (unsafe {
+                & ( * ( 0 as * const _opaque_pthread_cond_t ) ) . __sig as *
+                const _ as usize } , 0usize , concat ! (
+                "Alignment of field: " , stringify ! ( _opaque_pthread_cond_t
+                ) , "::" , stringify ! ( __sig ) ));
+    assert_eq! (unsafe {
+                & ( * ( 0 as * const _opaque_pthread_cond_t ) ) . __opaque as
+                * const _ as usize } , 8usize , concat ! (
+                "Alignment of field: " , stringify ! ( _opaque_pthread_cond_t
+                ) , "::" , stringify ! ( __opaque ) ));
+}
+#[repr(C)]
+#[derive(Debug, Copy)]
+pub struct _opaque_pthread_condattr_t {
+    pub __sig: ::std::os::raw::c_long,
+    pub __opaque: [::std::os::raw::c_char; 8usize],
+}
+#[test]
+fn bindgen_test_layout__opaque_pthread_condattr_t() {
+    assert_eq!(::std::mem::size_of::<_opaque_pthread_condattr_t>() , 16usize ,
+               concat ! (
+               "Size of: " , stringify ! ( _opaque_pthread_condattr_t ) ));
+    assert_eq! (::std::mem::align_of::<_opaque_pthread_condattr_t>() , 8usize
+                , concat ! (
+                "Alignment of " , stringify ! ( _opaque_pthread_condattr_t )
+                ));
+    assert_eq! (unsafe {
+                & ( * ( 0 as * const _opaque_pthread_condattr_t ) ) . __sig as
+                * const _ as usize } , 0usize , concat ! (
+                "Alignment of field: " , stringify ! (
+                _opaque_pthread_condattr_t ) , "::" , stringify ! ( __sig )
+                ));
+    assert_eq! (unsafe {
+                & ( * ( 0 as * const _opaque_pthread_condattr_t ) ) . __opaque
+                as * const _ as usize } , 8usize , concat ! (
+                "Alignment of field: " , stringify ! (
+                _opaque_pthread_condattr_t ) , "::" , stringify ! ( __opaque )
+                ));
+}
+impl Clone for _opaque_pthread_condattr_t {
+    fn clone(&self) -> Self { *self }
+}
+#[repr(C)]
+pub struct _opaque_pthread_mutex_t {
+    pub __sig: ::std::os::raw::c_long,
+    pub __opaque: [::std::os::raw::c_char; 56usize],
+}
+#[test]
+fn bindgen_test_layout__opaque_pthread_mutex_t() {
+    assert_eq!(::std::mem::size_of::<_opaque_pthread_mutex_t>() , 64usize ,
+               concat ! (
+               "Size of: " , stringify ! ( _opaque_pthread_mutex_t ) ));
+    assert_eq! (::std::mem::align_of::<_opaque_pthread_mutex_t>() , 8usize ,
+                concat ! (
+                "Alignment of " , stringify ! ( _opaque_pthread_mutex_t ) ));
+    assert_eq! (unsafe {
+                & ( * ( 0 as * const _opaque_pthread_mutex_t ) ) . __sig as *
+                const _ as usize } , 0usize , concat ! (
+                "Alignment of field: " , stringify ! ( _opaque_pthread_mutex_t
+                ) , "::" , stringify ! ( __sig ) ));
+    assert_eq! (unsafe {
+                & ( * ( 0 as * const _opaque_pthread_mutex_t ) ) . __opaque as
+                * const _ as usize } , 8usize , concat ! (
+                "Alignment of field: " , stringify ! ( _opaque_pthread_mutex_t
+                ) , "::" , stringify ! ( __opaque ) ));
+}
+#[repr(C)]
+#[derive(Debug, Copy)]
+pub struct _opaque_pthread_mutexattr_t {
+    pub __sig: ::std::os::raw::c_long,
+    pub __opaque: [::std::os::raw::c_char; 8usize],
+}
+#[test]
+fn bindgen_test_layout__opaque_pthread_mutexattr_t() {
+    assert_eq!(::std::mem::size_of::<_opaque_pthread_mutexattr_t>() , 16usize
+               , concat ! (
+               "Size of: " , stringify ! ( _opaque_pthread_mutexattr_t ) ));
+    assert_eq! (::std::mem::align_of::<_opaque_pthread_mutexattr_t>() , 8usize
+                , concat ! (
+                "Alignment of " , stringify ! ( _opaque_pthread_mutexattr_t )
+                ));
+    assert_eq! (unsafe {
+                & ( * ( 0 as * const _opaque_pthread_mutexattr_t ) ) . __sig
+                as * const _ as usize } , 0usize , concat ! (
+                "Alignment of field: " , stringify ! (
+                _opaque_pthread_mutexattr_t ) , "::" , stringify ! ( __sig )
+                ));
+    assert_eq! (unsafe {
+                & ( * ( 0 as * const _opaque_pthread_mutexattr_t ) ) .
+                __opaque as * const _ as usize } , 8usize , concat ! (
+                "Alignment of field: " , stringify ! (
+                _opaque_pthread_mutexattr_t ) , "::" , stringify ! ( __opaque
+                ) ));
+}
+impl Clone for _opaque_pthread_mutexattr_t {
+    fn clone(&self) -> Self { *self }
+}
+#[repr(C)]
+#[derive(Debug, Copy)]
+pub struct _opaque_pthread_once_t {
+    pub __sig: ::std::os::raw::c_long,
+    pub __opaque: [::std::os::raw::c_char; 8usize],
+}
+#[test]
+fn bindgen_test_layout__opaque_pthread_once_t() {
+    assert_eq!(::std::mem::size_of::<_opaque_pthread_once_t>() , 16usize ,
+               concat ! ( "Size of: " , stringify ! ( _opaque_pthread_once_t )
+               ));
+    assert_eq! (::std::mem::align_of::<_opaque_pthread_once_t>() , 8usize ,
+                concat ! (
+                "Alignment of " , stringify ! ( _opaque_pthread_once_t ) ));
+    assert_eq! (unsafe {
+                & ( * ( 0 as * const _opaque_pthread_once_t ) ) . __sig as *
+                const _ as usize } , 0usize , concat ! (
+                "Alignment of field: " , stringify ! ( _opaque_pthread_once_t
+                ) , "::" , stringify ! ( __sig ) ));
+    assert_eq! (unsafe {
+                & ( * ( 0 as * const _opaque_pthread_once_t ) ) . __opaque as
+                * const _ as usize } , 8usize , concat ! (
+                "Alignment of field: " , stringify ! ( _opaque_pthread_once_t
+                ) , "::" , stringify ! ( __opaque ) ));
+}
+impl Clone for _opaque_pthread_once_t {
+    fn clone(&self) -> Self { *self }
+}
+#[repr(C)]
+pub struct _opaque_pthread_rwlock_t {
+    pub __sig: ::std::os::raw::c_long,
+    pub __opaque: [::std::os::raw::c_char; 192usize],
+}
+#[test]
+fn bindgen_test_layout__opaque_pthread_rwlock_t() {
+    assert_eq!(::std::mem::size_of::<_opaque_pthread_rwlock_t>() , 200usize ,
+               concat ! (
+               "Size of: " , stringify ! ( _opaque_pthread_rwlock_t ) ));
+    assert_eq! (::std::mem::align_of::<_opaque_pthread_rwlock_t>() , 8usize ,
+                concat ! (
+                "Alignment of " , stringify ! ( _opaque_pthread_rwlock_t ) ));
+    assert_eq! (unsafe {
+                & ( * ( 0 as * const _opaque_pthread_rwlock_t ) ) . __sig as *
+                const _ as usize } , 0usize , concat ! (
+                "Alignment of field: " , stringify ! (
+                _opaque_pthread_rwlock_t ) , "::" , stringify ! ( __sig ) ));
+    assert_eq! (unsafe {
+                & ( * ( 0 as * const _opaque_pthread_rwlock_t ) ) . __opaque
+                as * const _ as usize } , 8usize , concat ! (
+                "Alignment of field: " , stringify ! (
+                _opaque_pthread_rwlock_t ) , "::" , stringify ! ( __opaque )
+                ));
+}
+#[repr(C)]
+#[derive(Debug, Copy)]
+pub struct _opaque_pthread_rwlockattr_t {
+    pub __sig: ::std::os::raw::c_long,
+    pub __opaque: [::std::os::raw::c_char; 16usize],
+}
+#[test]
+fn bindgen_test_layout__opaque_pthread_rwlockattr_t() {
+    assert_eq!(::std::mem::size_of::<_opaque_pthread_rwlockattr_t>() , 24usize
+               , concat ! (
+               "Size of: " , stringify ! ( _opaque_pthread_rwlockattr_t ) ));
+    assert_eq! (::std::mem::align_of::<_opaque_pthread_rwlockattr_t>() ,
+                8usize , concat ! (
+                "Alignment of " , stringify ! ( _opaque_pthread_rwlockattr_t )
+                ));
+    assert_eq! (unsafe {
+                & ( * ( 0 as * const _opaque_pthread_rwlockattr_t ) ) . __sig
+                as * const _ as usize } , 0usize , concat ! (
+                "Alignment of field: " , stringify ! (
+                _opaque_pthread_rwlockattr_t ) , "::" , stringify ! ( __sig )
+                ));
+    assert_eq! (unsafe {
+                & ( * ( 0 as * const _opaque_pthread_rwlockattr_t ) ) .
+                __opaque as * const _ as usize } , 8usize , concat ! (
+                "Alignment of field: " , stringify ! (
+                _opaque_pthread_rwlockattr_t ) , "::" , stringify ! ( __opaque
+                ) ));
+}
+impl Clone for _opaque_pthread_rwlockattr_t {
+    fn clone(&self) -> Self { *self }
+}
+#[repr(C)]
+pub struct _opaque_pthread_t {
+    pub __sig: ::std::os::raw::c_long,
+    pub __cleanup_stack: *mut __darwin_pthread_handler_rec,
+    pub __opaque: [::std::os::raw::c_char; 8176usize],
+}
+#[test]
+fn bindgen_test_layout__opaque_pthread_t() {
+    assert_eq!(::std::mem::size_of::<_opaque_pthread_t>() , 8192usize , concat
+               ! ( "Size of: " , stringify ! ( _opaque_pthread_t ) ));
+    assert_eq! (::std::mem::align_of::<_opaque_pthread_t>() , 8usize , concat
+                ! ( "Alignment of " , stringify ! ( _opaque_pthread_t ) ));
+    assert_eq! (unsafe {
+                & ( * ( 0 as * const _opaque_pthread_t ) ) . __sig as * const
+                _ as usize } , 0usize , concat ! (
+                "Alignment of field: " , stringify ! ( _opaque_pthread_t ) ,
+                "::" , stringify ! ( __sig ) ));
+    assert_eq! (unsafe {
+                & ( * ( 0 as * const _opaque_pthread_t ) ) . __cleanup_stack
+                as * const _ as usize } , 8usize , concat ! (
+                "Alignment of field: " , stringify ! ( _opaque_pthread_t ) ,
+                "::" , stringify ! ( __cleanup_stack ) ));
+    assert_eq! (unsafe {
+                & ( * ( 0 as * const _opaque_pthread_t ) ) . __opaque as *
+                const _ as usize } , 16usize , concat ! (
+                "Alignment of field: " , stringify ! ( _opaque_pthread_t ) ,
+                "::" , stringify ! ( __opaque ) ));
+}
+pub type __darwin_pthread_attr_t = _opaque_pthread_attr_t;
+pub type __darwin_pthread_cond_t = _opaque_pthread_cond_t;
+pub type __darwin_pthread_condattr_t = _opaque_pthread_condattr_t;
+pub type __darwin_pthread_key_t = ::std::os::raw::c_ulong;
+pub type __darwin_pthread_mutex_t = _opaque_pthread_mutex_t;
+pub type __darwin_pthread_mutexattr_t = _opaque_pthread_mutexattr_t;
+pub type __darwin_pthread_once_t = _opaque_pthread_once_t;
+pub type __darwin_pthread_rwlock_t = _opaque_pthread_rwlock_t;
+pub type __darwin_pthread_rwlockattr_t = _opaque_pthread_rwlockattr_t;
+pub type __darwin_pthread_t = *mut _opaque_pthread_t;
+pub type u_int8_t = ::std::os::raw::c_uchar;
+pub type u_int16_t = ::std::os::raw::c_ushort;
+pub type u_int32_t = ::std::os::raw::c_uint;
+pub type u_int64_t = ::std::os::raw::c_ulonglong;
+pub type register_t = i64;
+pub type user_addr_t = u_int64_t;
+pub type user_size_t = u_int64_t;
+pub type user_ssize_t = i64;
+pub type user_long_t = i64;
+pub type user_ulong_t = u_int64_t;
+pub type user_time_t = i64;
+pub type user_off_t = i64;
+pub type syscall_arg_t = u_int64_t;
+pub type intmax_t = ::std::os::raw::c_long;
+pub type uintmax_t = ::std::os::raw::c_ulong;
 pub type jboolean = u8;
 pub type jbyte = i8;
 pub type jchar = u16;
@@ -8900,6 +9312,7 @@ pub type SLAndroidDataFormat_PCM_EX = SLAndroidDataFormat_PCM_EX_;
 extern "C" {
     pub static SL_IID_ANDROIDEFFECT: SLInterfaceID;
 }
+/** Android Effect interface methods */
 #[repr(C)]
 #[derive(Debug, Copy)]
 pub struct SLAndroidEffectItf_ {
@@ -8983,6 +9396,7 @@ pub type SLAndroidEffectItf = *const *const SLAndroidEffectItf_;
 extern "C" {
     pub static SL_IID_ANDROIDEFFECTSEND: SLInterfaceID;
 }
+/** Android Effect Send interface methods */
 #[repr(C)]
 #[derive(Debug, Copy)]
 pub struct SLAndroidEffectSendItf_ {
@@ -9073,6 +9487,7 @@ pub type SLAndroidEffectSendItf = *const *const SLAndroidEffectSendItf_;
 extern "C" {
     pub static SL_IID_ANDROIDEFFECTCAPABILITIES: SLInterfaceID;
 }
+/** Android Effect Capabilities interface methods */
 #[repr(C)]
 #[derive(Debug, Copy)]
 pub struct SLAndroidEffectCapabilitiesItf_ {
@@ -9126,6 +9541,7 @@ pub type SLAndroidEffectCapabilitiesItf =
 extern "C" {
     pub static SL_IID_ANDROIDCONFIGURATION: SLInterfaceID;
 }
+/** Android Configuration interface methods */
 #[repr(C)]
 #[derive(Debug, Copy)]
 pub struct SLAndroidConfigurationItf_ {
@@ -9274,6 +9690,7 @@ pub type slAndroidSimpleBufferQueueCallback =
                                                    SLAndroidSimpleBufferQueueItf,
                                                pContext:
                                                    *mut ::std::os::raw::c_void)>;
+/** Android simple buffer queue state **/
 #[repr(C)]
 #[derive(Debug, Copy)]
 pub struct SLAndroidSimpleBufferQueueState_ {
@@ -9483,6 +9900,7 @@ impl Clone for SLAndroidBufferQueueState_ {
     fn clone(&self) -> Self { *self }
 }
 pub type SLAndroidBufferQueueState = SLAndroidBufferQueueState_;
+/** File Descriptor-based data locator definition, locatorType must be SL_DATALOCATOR_ANDROIDFD */
 #[repr(C)]
 #[derive(Debug, Copy)]
 pub struct SLDataLocator_AndroidFD_ {
@@ -9525,6 +9943,7 @@ impl Clone for SLDataLocator_AndroidFD_ {
     fn clone(&self) -> Self { *self }
 }
 pub type SLDataLocator_AndroidFD = SLDataLocator_AndroidFD_;
+/** BufferQueue-based data locator definition where locatorType must be SL_DATALOCATOR_ANDROIDSIMPLEBUFFERQUEUE*/
 #[repr(C)]
 #[derive(Debug, Copy)]
 pub struct SLDataLocator_AndroidSimpleBufferQueue {
@@ -9557,6 +9976,8 @@ fn bindgen_test_layout_SLDataLocator_AndroidSimpleBufferQueue() {
 impl Clone for SLDataLocator_AndroidSimpleBufferQueue {
     fn clone(&self) -> Self { *self }
 }
+/** Android Buffer Queue-based data locator definition,
+ *  locatorType must be SL_DATALOCATOR_ANDROIDBUFFERQUEUE */
 #[repr(C)]
 #[derive(Debug, Copy)]
 pub struct SLDataLocator_AndroidBufferQueue_ {
