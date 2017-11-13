@@ -1,7 +1,7 @@
 [package]
 name    = "opensles-sys"
 description = "Raw bindings to Android's OpenSLES sound API"
-version = "0.0.2"
+version = "0.0.3"
 links   = "OpenSLES"
 readme = "README.md"
 license = "Apache-2.0"

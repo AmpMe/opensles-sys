@@ -1,5 +1,6 @@
 extern crate bindgen;
 
+use std::env;
 use std::path::PathBuf;
 
 fn main() {
@@ -13,8 +14,9 @@ fn main() {
         .expect("Unable to generate bindings");
 
     // output
+    let out_path = PathBuf::from(env::var("OUT_DIR").unwrap());
     bindings
-        .write_to_file(PathBuf::from("./src/bindings.rs"))
+        .write_to_file(out_path.join("bindings.rs"))
         .expect("Couldn't write bindings!");
 }
 
