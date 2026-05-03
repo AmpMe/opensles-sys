@@ -12,4 +12,4 @@ authors = ["Andre-Philippe Paquet <app@ampme.com>"]
 name = "opensles"
 
 [build-dependencies]
-bindgen = "0.40.0"
+bindgen = "0.32.3"
